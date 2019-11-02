@@ -9,45 +9,13 @@ The original data set for this lab was given in .csv format, it contains data ab
 
 ### The Data
 Seven additional data sets were scrapped and joined together. They include:
-* AP_Top25: The associated press’s top 25 ranked teams for the season, scrapped from ESPN. It contains:
-  * Season-end ranks for the top 25 ranks
-  *	Number of votes received
+* AP_Top25: The associated press’s top 25 ranked teams for the season, scrapped from ESPN.
 *	NCAA Div. 1 Football stats: several statistics related to the football team’s performance in the current season (2018) and the previous season (2017). Mainly wins, losses and points scored also scrapped from ESPN.
-  *	Conf_Points_For
-  *	Conf_Points_Against
-  *	Total_Points_For
-  *	Total_Points_Against
-  *	Conf_Wins
-  *	Conf_Losses
-  *	Home_Wins
-  *	Home_Losses
-  *	Away_Wins
-  *	Away_Losses
-  *	Wins_2018
-  *	Losses_2018
-  
 *	Coach data 2018: this dataset contains statistics about a head coach’s career data and when the coach had his first season with the team scrapped from Wikipedia. It attempts to inform the model about the tenure of the coach.
-  *	First_Season  First season with the team (year)
-  *	W  Current season wins
-  *	L  Current season losses
-  *	W%  Current winning percentage
-  *	Career W
-  *	Career L
-  *	Career W%
 *	Stadium size: information about the school’s stadium size and when it was opened, scrapped from collegegridirons.com
-  *	Capacity
-  *	Opened
 *	Recruitment class: information about the quality of the recruiting class scraped from 247sports.
 Note: since this data is supposed to relate recruitment data to the performance of team in 2018, recruitment rankings are added for 2019.
-  *	RecRank_2019
-  *	5-stars_2019
-  *	4-stars_2019
-  *	3-stars_2019
-  *	Total_commits_2019
-  *	Avg_RecScore_2019  247sports proprietary avg. recruitment class score
 *	Graduation Success Rate: data about graduation rates for Division 1 schools, 2008-2011 cohorts combined.
-  *	Fed_rate
-  *	GSR
 
 ### Data exploration and munging
 A combination of fuzzy matching and manual inspection was used to create a ‘matching data frame’ which contained all the different names from the different data sets indexed to the coaches9 original data set. These were appended together using left joins.
