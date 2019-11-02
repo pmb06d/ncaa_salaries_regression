@@ -3,7 +3,8 @@
 ## Introduction
 The purpose of this lab is to evaluate the factors that affect an NCAA Division I Football head coach and predict a salary range for the Syracuse head coach. This evidenced-based approach to setting the coach’s salary expectations stems from the idea that athletic departments in large universities have deviated from their mission of graduating students.
 The three aspects of a coach I will attempt to cover is: team performance (wins/points), recruitment and academic performance.
-Methodology
+
+## Methodology
 The original data set for this lab was given in .csv format, it contains data about head coach pay and bonus structure in 2018, downloaded from an USA Today report. This data set was enhanced with additional information that targets the three main aspects of a head coach’s job (in my opinion) which are: to increase/maintain attendance, to win games, and to graduate his student-athletes.
 
 ### The Data
