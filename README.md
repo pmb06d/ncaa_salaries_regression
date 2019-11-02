@@ -11,7 +11,7 @@ The original data set for this lab was given in .csv format, it contains data ab
 Seven additional data sets were scrapped and joined together. They include:
 * AP_Top25: The associated press’s top 25 ranked teams for the season, scrapped from ESPN. It contains:
   * Season-end ranks for the top 25 ranks
-  *	# of votes received
+  *	Number of votes received
 *	NCAA Div. 1 Football stats: several statistics related to the football team’s performance in the current season (2018) and the previous season (2017). Mainly wins, losses and points scored also scrapped from ESPN.
   *	Conf_Points_For
   *	Conf_Points_Against
